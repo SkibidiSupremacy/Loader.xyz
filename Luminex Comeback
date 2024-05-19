@@ -1,30 +1,4 @@
---[[ 
-Modded And Scripted By SumitScripts Pevaiqo Here All Updates Changed
-
-l -  Update Note - l
-
-Changes/Fix -
-
- [+] Auto Parry Changes
- [+] Fix Speed And Fly V3 
- [+] Ui Library Changes
-
-Added - 
-
- [+] Added - Minecraft Hit Sound
- [+] Added - Kill Effect
- [+] Added - Trail
- [+] Added - Night Mode
-
-Removed -
-
- [+] Removed - Auto Win And More (i Deleted So Many Things because all patched)
-
-]]--
-
--- gets Fractions
-
-print('Thanks for using our new Script')
+print('new Script')
 setfpscap(165)
 
 local Stats = game:GetService('Stats')
@@ -127,7 +101,7 @@ local function get_closest_entity(Object: Part)
     end)
 end
 
---// Thanks Aries for this.
+-- Thanks Mch for this.
 function resolve_parry_Remote()
     for _, value in Services do
         local temp_remote = value:FindFirstChildOfClass('RemoteEvent')
